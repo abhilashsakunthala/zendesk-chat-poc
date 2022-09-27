@@ -21,7 +21,7 @@ document.addEventListener( 'DOMContentLoaded', function( event ) {
     callback("${token}");
   });
   window.ReactNativeWebView.postMessage("message to outside");
-  zE('messenger', 'open');
+  zE('messenger', 'open'); // it will stop functioning if you uncomment the function for logout user(line no: 19)
 });
 </script>
 </body>
